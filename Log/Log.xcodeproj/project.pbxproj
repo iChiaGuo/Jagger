@@ -15,6 +15,7 @@
 		326087F61D6568C300AA8D9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 326087F41D6568C300AA8D9E /* LaunchScreen.storyboard */; };
 		326088011D6568C300AA8D9E /* LogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 326088001D6568C300AA8D9E /* LogTests.m */; };
 		3260880C1D6568C300AA8D9E /* LogUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3260880B1D6568C300AA8D9E /* LogUITests.m */; };
+		3260881D1D659FAA00AA8D9E /* NSDictionary+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 3260881C1D659FAA00AA8D9E /* NSDictionary+Log.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		326088071D6568C300AA8D9E /* LogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3260880B1D6568C300AA8D9E /* LogUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogUITests.m; sourceTree = "<group>"; };
 		3260880D1D6568C300AA8D9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3260881C1D659FAA00AA8D9E /* NSDictionary+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Log.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				326087EC1D6568C300AA8D9E /* ViewController.h */,
 				326087ED1D6568C300AA8D9E /* ViewController.m */,
 				326087EF1D6568C300AA8D9E /* Main.storyboard */,
+				3260881C1D659FAA00AA8D9E /* NSDictionary+Log.m */,
 				326087F21D6568C300AA8D9E /* Assets.xcassets */,
 				326087F41D6568C300AA8D9E /* LaunchScreen.storyboard */,
 				326087F71D6568C300AA8D9E /* Info.plist */,
@@ -274,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				326087EE1D6568C300AA8D9E /* ViewController.m in Sources */,
+				3260881D1D659FAA00AA8D9E /* NSDictionary+Log.m in Sources */,
 				326087EB1D6568C300AA8D9E /* AppDelegate.m in Sources */,
 				326087E81D6568C300AA8D9E /* main.m in Sources */,
 			);
@@ -501,6 +505,7 @@
 				326088121D6568C300AA8D9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		326088131D6568C300AA8D9E /* Build configuration list for PBXNativeTarget "LogTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +514,7 @@
 				326088151D6568C300AA8D9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		326088161D6568C300AA8D9E /* Build configuration list for PBXNativeTarget "LogUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +523,7 @@
 				326088181D6568C300AA8D9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
